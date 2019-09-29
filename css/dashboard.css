@@ -49,6 +49,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  text-align: center
 }
 .main {
   grid-area: 2 / 2 / span 1 / span 1;
@@ -124,7 +125,7 @@ ul {
   display: flex;
   align-items: center;
   padding: 20px;
-  background:#444;
+  background:#6FC0D8;
   color: #efefef
 
 }
@@ -137,4 +138,17 @@ ul {
 }
 .footer2 > a {
   color: #efefef
+}
+#profileImg {
+  width: 200px;
+  height: 200px;
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 1000px) {
+  #profileImg {
+    width: 100px;
+    height: 100px;
+  }
 }
