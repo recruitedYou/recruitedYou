@@ -1,0 +1,32 @@
+/* styling is specific to login.html */
+
+html, body, main {
+  background-color: #E9ECEF;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.loginWindow {
+  max-width: 800px;
+  max-height: 800px;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+  padding: 1em;
+
+}
+
+.loginWindow-items {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: .5em;
+}

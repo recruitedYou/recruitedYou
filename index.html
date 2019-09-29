@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/index.css">
 
+    <!-- Roboto google font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
@@ -35,8 +38,11 @@
           </ul>
 
           <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-secondary my-2 my-sm-0 mr-3" type="submit">Login</button>
-            <button class="btn btn-outline-secondary my-2 my-sm-0 mr-3" type="submit">Signup</button>
+
+            <!-- Make these buttons goto login.html and signup.html respectively. Then delete this comment -->
+            <button class="btn btn-secondary my-2 my-sm-0 mr-3" type="submit" onclick="javascript:window.location.href='login.html'">Login</button>
+            <button class="btn btn-outline-secondary my-2 my-sm-0 mr-3" type="submit"
+            onclick="javascript:window.location.href='signup.html'">Signup</button>
             <button class="btn btn-outline-secondary my-2 my-sm-0 mr-3" type="submit">Become a Teacher</button>
           </form>
 
