@@ -57,10 +57,30 @@ ul {
   flex-direction: column;
   justify-content: space-evenly;
   background: #efefef;
-  padding: 10px
+  padding: 10px;
+  overflow: scroll;
+  
 }
 .mainItem {
   margin: auto;
+}
+#profileImg {
+  width: 200px;
+  height: 200px;
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+#sectionForm {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  width: 40vw
+}
+input {
+  padding: 5px
 }
 .sidebar {
   grid-area: 2 / 3 / span 1 / -1;
@@ -139,13 +159,7 @@ ul {
 .footer2 > a {
   color: #efefef
 }
-#profileImg {
-  width: 200px;
-  height: 200px;
-  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-	box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-}
+
 @media (max-width: 1000px) {
   #profileImg {
     width: 100px;
