@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box
 }
+body {
+  position: relative;
+}
 #teacherBody {
   background-image: url('../img/dot-grid.png');
   display: flex;
@@ -43,4 +46,11 @@ input {
 }
 .btn {
   margin-top: 10px;
+}
+#logo {
+  position: absolute;
+  top: 10;
+  left: 20;
+  width: 10%;
+  margin: auto;
 }

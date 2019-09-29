@@ -1,10 +1,16 @@
-/* styling is specific to login.html */
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
+  width: 100vw;
+  height: 100vh;
   background-image: url('../img/dot-grid.png');
   display: flex;
   justify-content: center;
   align-items: center;
-
+  display: relative
 }
 .loginWindow-items {
   display: flex;
@@ -18,6 +24,10 @@ body {
 }
 .loginItem {
   padding: 10px
+}
+#logo {
+  width: 60%;
+  margin: auto;
 }
 
 
